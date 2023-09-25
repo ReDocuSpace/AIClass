@@ -13,6 +13,7 @@
   - [.1 박스 모델 프로퍼티](#박스-모델-프로퍼티)  
   - [.2 배경 관련 프로퍼티](#배경-관련-프로퍼티)
   - [.3 포지셔닝 프로퍼티](#포지셔닝-프로퍼티)
+  - [.4 다이나믹 프로퍼티](#다이나믹-프로퍼티)
   - [※ 여러가지 border Style](#※-여러가지-border-Style)
 
 
@@ -173,6 +174,7 @@ LEFT
 div{ width: 200px; height: 200px; border: 5px dashed pink; }
 .left{ float: left; }
 ```
+![Image alt text](sample/4_float_left.svg)
 
 RIGHT   
 
@@ -180,6 +182,8 @@ RIGHT
 div{ width: 200px; height: 200px; border: 5px dashed pink; }
 .right{ float: right; }
 ```
+![Image alt text](sample/4_float_right.svg)
+
 
 - clear
 ```html
@@ -263,6 +267,8 @@ body > div {width: 200px; height: 200px; background-color: #ccc; }
 #box01{ padding: 20px 30px 40px 50px; }
 ```
 ![Image alt text](sample/4_padding04.svg)
+
+### 다이나믹 프로퍼티
 
 
 ### ※ 여러가지 border Style
