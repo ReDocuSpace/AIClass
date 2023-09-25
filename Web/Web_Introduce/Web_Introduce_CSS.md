@@ -236,31 +236,31 @@ div > div { width: 100px; height: 100px; background-color: #ff9; }
 
 - padding
   
-한 개의 값일 경우
+한 개의 값일 경우 : 박스의 상우하좌 사방에 같은 값을 지정한다.
 ```html
 body > div {width: 200px; height: 200px; background-color: #ccc; }
 #box01{ padding: 50px; }
 ```
 ![Image alt text](sample/4_padding01.svg)
 
-두 개의 값일 경우
+두 개의 값일 경우 : 첫번째 자리는 상하값, 두번째 자리는 좌우값을 지정한다.
 ```html
 body > div {width: 200px; height: 200px; background-color: #ccc; }
-#box01{ padding: 50px; }
+#box01{ padding: 20px 50px; }
 ```
 ![Image alt text](sample/4_padding02.svg)
 
-세 개의 값일 경우
+세 개의 값일 경우 : 첫번째 자리는 상단의 값, 두 번째 자리는 좌우의 값, 세번째 자리는 하단의 값을 지정한다.
 ```html
 body > div {width: 200px; height: 200px; background-color: #ccc; }
-#box01{ padding: 50px; }
+#box01{ padding: 20px 50px 10px; }
 ```
 ![Image alt text](sample/4_padding03.svg)
 
-네 개의 값일 경우
+네 개의 값일 경우 : 상우하좌의 순서로 값을 지정한다.
 ```html
 body > div {width: 200px; height: 200px; background-color: #ccc; }
-#box01{ padding: 50px; }
+#box01{ padding: 20px 30px 40px 50px; }
 ```
 ![Image alt text](sample/4_padding04.svg)
 
