@@ -5,14 +5,15 @@
 - [선택자](#선택자)   
   - [.1 기본 선택자](#기본-선택자)   
   - [.2 결합 선택자](#결합-선택자)   
-  - [.3 속성 선택자)(#속성-선택자)   
+  - [.3 속성 선택자](#속성-선택자)   
   - [.4 가상 클래스 선택자](#가상-클래스-선택자)   
   - [.5 가상 요소 선택자](#가상-요소-선택자)   
 
 - [프로퍼티](#프로퍼티)   
-  - [.1 박스 모델 프로퍼티]   
-  - [.2 배경 관련 프로퍼티]   
-
+  - [.1 박스 모델 프로퍼티](#박스-모델-프로퍼티)  
+  - [.2 배경 관련 프로퍼티](#배경-관련-프로퍼티)
+  - [.3 포지셔닝 프로퍼티](#포지셔닝-프로퍼티)
+  - [※ 여러가지 border Style](#※-여러가지-border-Style)
 
 
 ## 선택자
@@ -62,7 +63,8 @@ span { color: green;}
 
 ### 가상 요소 선택자
 
-- 문장 가상요소 선택자
+#### 문장 가상요소 선택자
+  
 ::after : 특정 선택자의 앞에 문자를 추가한다.   
 ::before : 특정 선택자의 문자 뒤에 문자를 추가한다.   
 
@@ -80,7 +82,8 @@ p::first-letter { color: #ff0000; font-size: xx-large;}
 p::first-line { color: #0000ff; font-variant: small-caps; }
 p::selection{ background-color:pink; color:purple;}
 ```
-- Form 가상 요소 선택자
+
+#### Form 가상 요소 선택자
 
 :enabled : 대부분의 입력 양식에 사용되며 활성화 필드를 지정한다.
 :disabled : 대부분의 입력 양식에 사용되며 비활성화 필드를 지정한다.
@@ -156,7 +159,31 @@ background: linear-gradient(to bottom,red 0%,black 100%);
 }
 ```
 
-## ※ 여러가지 border Style
+
+
+### 포지셔닝 프로퍼티
+
+- position
+
+- float
+  
+```html
+div{ width: 200px; height: 200px; border: 5px dashed pink; }
+.left{ float: left; }
+```
+
+```html
+div{ width: 200px; height: 200px; border: 5px dashed pink; }
+.right{ float: left; }
+```
+
+- clear
+- margin
+- padding
+  
+
+
+### ※ 여러가지 border Style
 
 ```html
 /* ul의 type을 표시하지 않습니다. */
