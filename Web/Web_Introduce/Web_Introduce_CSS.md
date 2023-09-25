@@ -197,7 +197,7 @@ div{ width: 200px; height: 200px; text-align: center; line-height: 200px; }
 한 개의 값일 경우 : 사방에 모두 같은 값을 지정한다.   
 ```html
 /* 부모요소 */
-body > div { width: 200px; height: 200px; background-color: #9cc; }
+body > div { position: absolute; width: 200px; height: 200px; background-color: #9cc; }
 /* 자식요소 */
 div > div { width: 100px; height: 100px; background-color: #ff9; }
 #box01{ margin: 50px; }
@@ -207,7 +207,7 @@ div > div { width: 100px; height: 100px; background-color: #ff9; }
 두 개의 값일 경우 : 첫번째는 상하, 두번째는 좌우의 값을 지정한다.   
 ```html
 /* 부모요소 */
-body > div { width: 200px; height: 200px; background-color: #9cc; }
+body > div { position: absolute; width: 200px; height: 200px; background-color: #9cc; }
 /* 자식요소 */
 div > div { width: 100px; height: 100px; background-color: #ff9; }
 #box01{ margin: 20px 50px; }
@@ -217,7 +217,7 @@ div > div { width: 100px; height: 100px; background-color: #ff9; }
 세 개의 값일 경우 : 첫번째 자리는 상단의 값, 두번째 자리는 좌우의 값, 세번째 자리는 하단의 값을 지정한다.   
 ```html
 /* 부모요소 */
-body > div { width: 200px; height: 200px; background-color: #9cc; }
+body > div { position: absolute; width: 200px; height: 200px; background-color: #9cc; }
 /* 자식요소 */
 div > div { width: 100px; height: 100px; background-color: #ff9; }
 #box01{ margin: 20px 50px 10px; }
@@ -227,7 +227,7 @@ div > div { width: 100px; height: 100px; background-color: #ff9; }
 네 개의 값일 경우 : 상우하좌의 순서로 값을 지정한다.
 ```html
 /* 부모요소 */
-body > div { width: 200px; height: 200px; background-color: #9cc; }
+body > div { position: absolute; width: 200px; height: 200px; background-color: #9cc; }
 /* 자식요소 */
 div > div { width: 100px; height: 100px; background-color: #ff9; }
 #box01{ margin: 20px 30px 40px 50px; }
@@ -236,6 +236,33 @@ div > div { width: 100px; height: 100px; background-color: #ff9; }
 
 - padding
   
+한 개의 값일 경우
+```html
+body > div {width: 200px; height: 200px; background-color: #ccc; }
+#box01{ padding: 50px; }
+```
+![Image alt text](sample/4_padding01.svg)
+
+두 개의 값일 경우
+```html
+body > div {width: 200px; height: 200px; background-color: #ccc; }
+#box01{ padding: 50px; }
+```
+![Image alt text](sample/4_padding02.svg)
+
+세 개의 값일 경우
+```html
+body > div {width: 200px; height: 200px; background-color: #ccc; }
+#box01{ padding: 50px; }
+```
+![Image alt text](sample/4_padding03.svg)
+
+네 개의 값일 경우
+```html
+body > div {width: 200px; height: 200px; background-color: #ccc; }
+#box01{ padding: 50px; }
+```
+![Image alt text](sample/4_padding04.svg)
 
 
 ### ※ 여러가지 border Style
