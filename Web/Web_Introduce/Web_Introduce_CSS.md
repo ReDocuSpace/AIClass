@@ -18,7 +18,9 @@
     	- [clear](#clear)   
     	- [margin](#margin)   
     	- [padding](#padding)   
-  - [.4 다이나믹 프로퍼티](#다이나믹-프로퍼티)
+  - [.4 다이나믹 프로퍼티](#다이나믹-프로퍼티)   
+  	- [transition](#transition)   
+    	- [
   - [※ 여러가지 border Style](#※-여러가지-border-Style)
 
 
@@ -191,6 +193,9 @@ div{ width: 200px; height: 200px; border: 5px dashed pink; }
 
 
 #### clear
+
+clear 프로퍼티가 적용된 요소의 왼쪽, 오른쪽, 또는 양쪽 float 프로퍼티를 가진 부모나 형제 관계에서의 상위 요소의 접근을 허용하지 않을 때 사용.
+
 ```html
 div{ width: 200px; height: 200px; text-align: center; line-height: 200px; }
 .box01{ border: 5px dashed rgba(255,0,0,0.5); float: left; }
@@ -200,6 +205,7 @@ div{ width: 200px; height: 200px; text-align: center; line-height: 200px; }
 /* clear속성을 가진 클래스를 생성해 div요소에 적용합니다 */
 .clear{ border: 5px dashed rgba(0,255,0,0.5); clear: both; }
 ```
+![Image alt text](sample/4_clear.svg)
 
 #### margin
 
@@ -275,6 +281,9 @@ body > div {width: 200px; height: 200px; background-color: #ccc; }
 
 ### 다이나믹 프로퍼티
 
+#### transition
+
+#### transfrom
 
 ### ※ 여러가지 border Style
 
@@ -305,3 +314,5 @@ div{ width: 50%; height: 100px;
      border-style: dashed double solid dotted;
 }
 ```
+![Image alt text](sample/4_border_style.svg)
+
