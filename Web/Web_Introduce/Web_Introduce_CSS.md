@@ -283,6 +283,42 @@ body > div {width: 200px; height: 200px; background-color: #ccc; }
 
 #### transition
 
+transition-property : value : 변화시킬 프로퍼티를 지정한다.
+transition-duration : 변화가 완료될 때 까지의 시간을 초 또는 밀리초로 지정한다.
+transition-delay : 변화 시작의 지연 시간을 초 또는 밀리초로 지정한다.
+
+```html
+div {	
+	height: 100px;
+	font-size: 3em;
+	text-align: center;
+	margin-bottom: 20px;
+	background-color: #b0a2ce;
+	color: #fff;
+}
+
+#box01:hover {
+		background-color: yellow;
+		color: #333;
+		transition-property: background-color, color;
+		transition-duration: 2s, 2s;
+}
+
+/* 가상선택자에 transition속성을 지정할 때와 실제 요소에 transition속성을 지정할 때 변화 방식이 다릅니다. */
+#box02 {
+		transition-property: background-color;
+		transition-duration: 2s;
+		transition-delay: 1s;
+}
+
+#box02:hover {
+		background-color: #7ebf41;
+		color: #666;
+}
+```
+![Image alt text](sample/4_transition.svg)
+
+
 #### transfrom
 
 ### ※ 여러가지 border Style
