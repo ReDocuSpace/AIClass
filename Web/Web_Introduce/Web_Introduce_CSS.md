@@ -166,19 +166,71 @@ background: linear-gradient(to bottom,red 0%,black 100%);
 - position
 
 - float
-  
+
+LEFT   
+
 ```html
 div{ width: 200px; height: 200px; border: 5px dashed pink; }
 .left{ float: left; }
 ```
 
+RIGHT   
+
 ```html
 div{ width: 200px; height: 200px; border: 5px dashed pink; }
-.right{ float: left; }
+.right{ float: right; }
 ```
 
 - clear
+```html
+div{ width: 200px; height: 200px; text-align: center; line-height: 200px; }
+.box01{ border: 5px dashed rgba(255,0,0,0.5); float: left; }
+.box02{ background-color: rgba(0,0,255,0.5); float: right; }
+.box03{ background-color: rgba(0,255,0,0.5); float: left; }
+
+/* clear속성을 가진 클래스를 생성해 div요소에 적용합니다 */
+.clear{ border: 5px dashed rgba(0,255,0,0.5); clear: both; }
+```
+
 - margin
+
+한 개의 값일 경우 : 사방에 모두 같은 값을 지정한다.   
+```html
+/* 부모요소 */
+body > div { width: 200px; height: 200px; background-color: #9cc; }
+/* 자식요소 */
+div > div { width: 100px; height: 100px; background-color: #ff9; }
+#box01{ margin: 50px; }
+```
+
+
+두 개의 값일 경우 : 첫번째는 상하, 두번째는 좌우의 값을 지정한다.   
+```html
+/* 부모요소 */
+body > div { width: 200px; height: 200px; background-color: #9cc; }
+/* 자식요소 */
+div > div { width: 100px; height: 100px; background-color: #ff9; }
+#box01{ margin: 20px 50px; }
+```
+
+세 개의 값일 경우 : 첫번째 자리는 상단의 값, 두번째 자리는 좌우의 값, 세번째 자리는 하단의 값을 지정한다.   
+```html
+/* 부모요소 */
+body > div { width: 200px; height: 200px; background-color: #9cc; }
+/* 자식요소 */
+div > div { width: 100px; height: 100px; background-color: #ff9; }
+#box01{ margin: 20px 50px 10px; }
+```
+
+네 개의 값일 경우 : 상우하좌의 순서로 값을 지정한다.
+```html
+/* 부모요소 */
+body > div { width: 200px; height: 200px; background-color: #9cc; }
+/* 자식요소 */
+div > div { width: 100px; height: 100px; background-color: #ff9; }
+#box01{ margin: 20px 30px 40px 50px; }
+```
+
 - padding
   
 
