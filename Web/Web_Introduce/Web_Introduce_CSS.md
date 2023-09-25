@@ -202,7 +202,7 @@ body > div { width: 200px; height: 200px; background-color: #9cc; }
 div > div { width: 100px; height: 100px; background-color: #ff9; }
 #box01{ margin: 50px; }
 ```
-
+![Image alt text](sample/4_margin01.svg)
 
 두 개의 값일 경우 : 첫번째는 상하, 두번째는 좌우의 값을 지정한다.   
 ```html
@@ -212,6 +212,7 @@ body > div { width: 200px; height: 200px; background-color: #9cc; }
 div > div { width: 100px; height: 100px; background-color: #ff9; }
 #box01{ margin: 20px 50px; }
 ```
+![Image alt text](sample/4_margin02.svg)
 
 세 개의 값일 경우 : 첫번째 자리는 상단의 값, 두번째 자리는 좌우의 값, 세번째 자리는 하단의 값을 지정한다.   
 ```html
@@ -221,6 +222,7 @@ body > div { width: 200px; height: 200px; background-color: #9cc; }
 div > div { width: 100px; height: 100px; background-color: #ff9; }
 #box01{ margin: 20px 50px 10px; }
 ```
+![Image alt text](sample/4_margin03.svg)
 
 네 개의 값일 경우 : 상우하좌의 순서로 값을 지정한다.
 ```html
@@ -230,6 +232,7 @@ body > div { width: 200px; height: 200px; background-color: #9cc; }
 div > div { width: 100px; height: 100px; background-color: #ff9; }
 #box01{ margin: 20px 30px 40px 50px; }
 ```
+![Image alt text](sample/4_margin04.svg)
 
 - padding
   
