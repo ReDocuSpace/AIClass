@@ -2,16 +2,16 @@
 
 
 
-[선택자](#선택자)
-  [.1 기본 선택자](#기본-선택자)
-  [.2 결합 선택자](#결합-선택자)
-  [.3 속성 선택자)(#속성-선택자)
-  [.4 가상 클래스 선택자](#가상-클래스-선택자)
-  [.5 가상 요소 선택자](#가상-요소-선택자)
+- [선택자](#선택자)   
+  - [.1 기본 선택자](#기본-선택자)   
+  - [.2 결합 선택자](#결합-선택자)   
+  - [.3 속성 선택자)(#속성-선택자)   
+  - [.4 가상 클래스 선택자](#가상-클래스-선택자)   
+  - [.5 가상 요소 선택자](#가상-요소-선택자)   
 
-[프로퍼티](#프로퍼티)
-  [.1 박스 모델 프로퍼티]
-  [.2 배경 관련 프로퍼티]
+- [프로퍼티](#프로퍼티)   
+  - [.1 박스 모델 프로퍼티]   
+  - [.2 배경 관련 프로퍼티]   
 
 
 
@@ -19,27 +19,27 @@
 
 ### 기본 선택자
 
-- 1. [*전체 선택자*] : 임의의 공간을 초기화 할때 사용한다
+1. [*전체 선택자*] : 임의의 공간을 초기화 할때 사용한다
 
 ```html
 * { color: red; }
 ```
   
-- 2. [*태그 선택자*]
+2. [*태그 선택자*]
 
 ```html
 div { color: skyblue; }
 span { color: green;}
 ```
 
-- 3. [*아이디 선택자*]
+3. [*아이디 선택자*]
 
 ```html
 #bluebox { color: blue; }
 #orangebox { color: orange; }
 ```
 
-- 4. [*클래스 선택자*]
+4. [*클래스 선택자*]
 
 ```html
 .font24 { font-size: 24px; }
@@ -156,3 +156,32 @@ background: linear-gradient(to bottom,red 0%,black 100%);
 }
 ```
 
+## ※ 여러가지 border Style
+
+```html
+/* ul의 type을 표시하지 않습니다. */
+ul{ list-style: none;  }
+
+li{ width: 50%; height: 50px; margin: 20px 0;
+/* ↓ 모든 li요소에 border-color와 border-width값을 공통으로 지정합니다.*/
+	border-color: #9999ff; border-width: 12px;
+}
+	
+/* id 속성값이 각기 다른 요소에 각각 다른 스타일 지정합니다 */
+#box1{ border-style: dotted; }
+#box2{ border-style: dashed; }
+#box3{ border-style: solid; }
+#box4{ border-style: double; }
+#box5{ border-style: groove; }
+#box6{ border-style: ridge; }
+#box7{ border-style: inset; }
+#box8{ border-style: outset; }
+#box9{ border-style: none; }
+#box10{ border-style: hidden; }
+
+/* div요소에 border-style값을 4가지로 지정합니다.*/
+div{ width: 50%; height: 100px;
+     border-color: #999999;
+     border-style: dashed double solid dotted;
+}
+```
