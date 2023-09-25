@@ -1,0 +1,25 @@
+<svg fill="none" viewBox="0 0 1280 300" width="1280" height="300" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        .container {
+			position: absolute;
+			width: 100%;
+			height: 300px;
+			background-color: black;
+			color: white;
+        }
+			
+		.custom > div{width: 200px; height: 200px; background-color: #ccc;  }
+		#box01{ padding: 30px 30px 30px;  }
+	
+      </style>
+
+      <div class="container">
+		<div class="custom">
+			<div id="box01">Sample Text</div>
+		</div>
+      </div>
+    </div>
+  </foreignObject>
+</svg>
