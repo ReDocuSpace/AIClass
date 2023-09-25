@@ -12,7 +12,12 @@
 - [프로퍼티](#프로퍼티)   
   - [.1 박스 모델 프로퍼티](#박스-모델-프로퍼티)  
   - [.2 배경 관련 프로퍼티](#배경-관련-프로퍼티)
-  - [.3 포지셔닝 프로퍼티](#포지셔닝-프로퍼티)
+  - [.3 포지셔닝 프로퍼티](#포지셔닝-프로퍼티)   
+    	- [position](#position)   
+    	- [float](#float)   
+    	- [clear](#clear)   
+    	- [margin](#margin)   
+    	- [padding](#padding)   
   - [.4 다이나믹 프로퍼티](#다이나믹-프로퍼티)
   - [※ 여러가지 border Style](#※-여러가지-border-Style)
 
@@ -164,9 +169,9 @@ background: linear-gradient(to bottom,red 0%,black 100%);
 
 ### 포지셔닝 프로퍼티
 
-- position
+#### position
 
-- float
+#### float
 
 LEFT   
 
@@ -185,7 +190,7 @@ div{ width: 200px; height: 200px; border: 5px dashed pink; }
 ![Image alt text](sample/4_float_right.svg)
 
 
-- clear
+#### clear
 ```html
 div{ width: 200px; height: 200px; text-align: center; line-height: 200px; }
 .box01{ border: 5px dashed rgba(255,0,0,0.5); float: left; }
@@ -196,7 +201,7 @@ div{ width: 200px; height: 200px; text-align: center; line-height: 200px; }
 .clear{ border: 5px dashed rgba(0,255,0,0.5); clear: both; }
 ```
 
-- margin
+#### margin
 
 한 개의 값일 경우 : 사방에 모두 같은 값을 지정한다.   
 ```html
@@ -238,7 +243,7 @@ div > div { width: 100px; height: 100px; background-color: #ff9; }
 ```
 ![Image alt text](sample/4_margin04.svg)
 
-- padding
+#### padding
   
 한 개의 값일 경우 : 박스의 상우하좌 사방에 같은 값을 지정한다.
 ```html
