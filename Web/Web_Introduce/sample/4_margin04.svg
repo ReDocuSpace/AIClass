@@ -11,7 +11,7 @@
         }
 			
 		/* 부모요소 */
-		.custom > div{ width: 200px; height: 200px; background-color: #9cc; }
+		.custom > div{ position: absolute; width: 200px; height: 200px; background-color: #9cc; }
 		
 			/* 자식요소 */
 		div > div { width: 100px; height: 100px; background-color: #ff9; }
