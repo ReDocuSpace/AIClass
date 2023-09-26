@@ -283,9 +283,9 @@ body > div {width: 200px; height: 200px; background-color: #ccc; }
 
 #### transition
 
-transition-property : value : 변화시킬 프로퍼티를 지정한다.
-transition-duration : 변화가 완료될 때 까지의 시간을 초 또는 밀리초로 지정한다.
-transition-delay : 변화 시작의 지연 시간을 초 또는 밀리초로 지정한다.
+transition-property : value : 변화시킬 프로퍼티를 지정한다.   
+transition-duration : 변화가 완료될 때 까지의 시간을 초 또는 밀리초로 지정한다.   
+transition-delay : 변화 시작의 지연 시간을 초 또는 밀리초로 지정한다.   
 
 ```html
 div {	
@@ -318,13 +318,13 @@ div {
 ```
 ![Image alt text](sample/4_transition.svg)
 
-accordion
-
+- accordion
 ```html
 /* 첫 로딩 시 hover시 랜더링 될 요소가 깜빡이는 현상 제거 */
 .accordion>ul>li ul.subList { opacity: 0; }
 .accordion>ul>li ul.subList a { height: 0; }
 ```
+
 #### transfrom
 
 - translate(x,y)   
