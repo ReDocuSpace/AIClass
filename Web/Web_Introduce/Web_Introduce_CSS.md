@@ -20,7 +20,7 @@
     	- [padding](#padding)   
   - [.4 다이나믹 프로퍼티](#다이나믹-프로퍼티)   
   	- [transition](#transition)   
-    	- [
+    	- [transfrom](#transfrom)
   - [※ 여러가지 border Style](#※-여러가지-border-Style)
 
 
@@ -318,8 +318,126 @@ div {
 ```
 ![Image alt text](sample/4_transition.svg)
 
+accordion
 
+```html
+/* 첫 로딩 시 hover시 랜더링 될 요소가 깜빡이는 현상 제거 */
+.accordion>ul>li ul.subList { opacity: 0; }
+.accordion>ul>li ul.subList a { height: 0; }
+```
 #### transfrom
+
+- translate(x,y)   
+```html
+/* 모든 div 크기를 동일하게 지정합니다. */
+div{ width: 200px; height: 200px; box-sizing:border-box;}
+
+/* 기준이 될 검정선 박스의 크기를 지정합니다. */
+.box{ border:3px solid #999; position: absolute; z-index: -999;}
+
+/* #box01에 마우스를 올리면 지정한 값만큼 #box01을 이동시키기 */
+#box01{ 
+	background-color: rgba(255,255,0,0.5); 
+	transform:translate(0px,0px); 
+	transition:transform 1s ease;
+}
+#box01:hover{ transform: translate(50px,30px);}
+```
+![Image alt text](sample/4_transform01_1.svg)
+
+- translate(x)  
+```html
+/* #box01-1에 마우스를 올리면 X축으로 지정한 값만큼 #box01-1을 이동시키기 */
+#box01-1{ 
+	background-color: rgba(255,255,0,0.5); 
+	transform:translateX(0px); 
+	transition:transform 1s ease;
+}
+#box01-1:hover{ transform: translateX(120px);}
+```
+![Image alt text](sample/4_transform01_2.svg)
+
+- translate(y)   
+```html
+/* #box01-2에 마우스를 올리면 Y축으로 지정한 값만큼 #box01-2을 이동시키기 */
+#box01-2{ 
+	background-color: rgba(255,255,0,0.5); 
+	transform:translateY(0px); 
+	transition:transform 1s ease;
+}
+#box01-2:hover{ transform: translateY(80px);}
+```
+![Image alt text](sample/4_transform01_3.svg)
+
+- skewX(x-Angle)
+```html
+#box02-1{ 
+	background-color: rgba(0,0,255,0.5);
+	transform: skewX(0deg); 
+	transition: transform 0.5s ease-in;
+}
+#box02-1:hover{ transform: skewX(-15deg);}
+```
+![Image alt text](sample/4_transform02_1.svg)
+
+- skewX(y-Angle)
+```html
+#box02-2{ 
+	background-color: rgba(0,0,255,0.5);
+	transform: skewX(0deg); 
+	transition: transform 0.5s ease-in;
+}
+#box02-2:hover{ transform: skewY(25deg);}
+```
+![Image alt text](sample/4_transform02_2.svg)
+
+- scale(x,y)
+```html
+/* scale(x,y) */
+#box03{ 
+	background-color: rgba(0,0,255,0.5);
+	transform: scale(0.5,1); 
+	transition: transform 0.5s ease-in;
+}
+#box03:hover{ transform: scale(1,0.5);}
+```
+![Image alt text](sample/4_transform03_1.svg)
+
+- scale(x)
+```html
+#box03-1{ 
+	background-color: rgba(0,0,255,0.5);
+	transform: scaleX(0.2); 
+	transition: transform 0.5s ease-in;
+}
+#box03-1:hover{ transform: scale(1);}
+```
+![Image alt text](sample/4_transform03_2.svg)
+
+- scale(y)
+```html
+/* scale(y) */
+#box03-2{ 
+	background-color: rgba(0,0,255,0.5);
+	transform: scaleY(1); 
+	transition: transform 0.5s ease-in;
+}
+#box03-2:hover{ transform: scaleY(0.1);}
+```
+![Image alt text](sample/4_transform03_3.svg)
+
+
+- rotate
+```html
+#box04{ 
+	background-color: rgba(255,255,0,0.5); 
+	transform:rotate(0deg); 
+	transition:transform 1s ease;
+}
+#box04:hover{ transform:rotate(225deg);}
+```
+![Image alt text](sample/4_transform04.svg)
+
 
 ### ※ 여러가지 border Style
 
