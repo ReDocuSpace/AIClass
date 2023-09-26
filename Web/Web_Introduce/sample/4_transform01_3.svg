@@ -1,0 +1,53 @@
+<svg fill="none" viewBox="0 0 1280 300" width="1280" height="300" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        .container {
+			width: 100%;
+			height: 300px;
+			background-color: white;
+			color: black;
+        }
+			
+		/* 모든 div 크기를 동일하게 지정합니다. */
+		div{ width: 200px; height: 200px; box-sizing:border-box;}
+
+		/* 기준이 될 검정선 박스의 크기를 지정합니다. */
+		.box{ border:3px solid #999; position: absolute; z-index: -999;}
+
+		/* #box01에 마우스를 올리면 지정한 값만큼 #box01을 이동시키기 */
+		#box01{ 
+			background-color: rgba(255,255,0,0.5); 
+			transform:translate(0px,0px); 
+			transition:transform 1s ease;
+		}
+		#box01:hover{ transform: translate(50px,30px);}
+
+		/* #box01-1에 마우스를 올리면 X축으로 지정한 값만큼 #box01-1을 이동시키기 */
+        #box01-1{ 
+			background-color: rgba(255,255,0,0.5); 
+			transform:translateX(0px); 
+			transition:transform 1s ease;
+		}
+		#box01-1:hover{ transform: translateX(120px);}
+
+		/* #box01-2에 마우스를 올리면 Y축으로 지정한 값만큼 #box01-2을 이동시키기 */
+        #box01-2{ 
+			background-color: rgba(255,255,0,0.5); 
+			transform:translateY(0px); 
+			transition:transform 1s ease;
+		}
+		#box01-2:hover{ transform: translateY(80px);}
+
+      </style>
+
+		<div class="container">
+			<div class="custom">				
+				<h1>translate(y)</h1>
+				<div class="box"></div>
+				<div id="box01-2"></div>
+			</div>
+		</div>
+    </div>
+  </foreignObject>
+</svg>
