@@ -1,6 +1,6 @@
 # AI Class 
 
-[1. Python 포트폴리오](#Python-포트폴리오)
+### [1. Python 포트폴리오](#Python-포트폴리오)
   - [몬스터를 찾아서](#몬스터를-찾아서)
 
 ## Python 포트폴리오
