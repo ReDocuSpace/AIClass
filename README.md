@@ -1,9 +1,9 @@
 # AI Class 
 
-### [1. Python 포트폴리오](#Python-포트폴리오)
+### [1. Python](#Python)
   - [몬스터를 찾아서](#몬스터를-찾아서)
 
-## Python 포트폴리오
+## Python
 
 ### 몬스터를 찾아서
 <p align="center" width="100%">
