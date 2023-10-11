@@ -8,6 +8,11 @@
   <img src="portfolio_image/python_portfolio03.png" width="30%">
 </p>
 
-
+- 팀프로젝트 [4인]
+- 제목 : 몬스터를 찾아서
+- Python [pygame]
+- 종 스크롤 비행 슈팅 게임
+- 기간 : 3주[9/21 - 10/10]
+- 특이점 : 모듈화, 라이브러리화 [Background, Pool, Text]
 
 ## Web 강의
