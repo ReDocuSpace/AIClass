@@ -1,8 +1,13 @@
-# AIClass
+# AI Class 
 
-커리큘럼
+## Python 포트폴리오
 
-- PYTHON
-- HTML / CSS / JAVASCRIPT
-- POWER BI [빅데이터 분석 솔루션]
-  - SASS 등의 빅 데이터 솔루션을 MS사에서 최적화한 대중형 솔루션
+<p align="center" width="100%">
+  <img src="portfolio_image/python_portfolio01.png" width="30%">
+  <img src="portfolio_image/python_portfolio02.png" width="30%">
+  <img src="portfolio_image/python_portfolio03.png" width="30%">
+</p>
+
+
+
+## Web 강의
