@@ -7,7 +7,7 @@
 
 ### 몬스터를 찾아서
 <p align="center" width="100%">
-  <img src="portfolio_image/python_portfolio01.png" width="30%">
+  <img src="portfolio_image/python_portfolio1.png" width="30%">
   <img src="portfolio_image/python_portfolio02.png" width="30%">
   <img src="portfolio_image/python_portfolio03.png" width="30%">
 </p>
