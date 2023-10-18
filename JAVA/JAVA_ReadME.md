@@ -9,3 +9,5 @@
     - [XX.XX - XX.XX] DATA_IO
 
 ### 자바 프로젝트
+
+※ MVC (Model View Control)
