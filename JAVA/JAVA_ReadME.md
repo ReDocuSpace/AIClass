@@ -3,7 +3,7 @@
 ###  자바 기초 학습 [ 10.11 ~ 
 
 <p align="center" width="100%">
-    <img src="portfolio_image/python_portfolio1.png" width="30%">
+    <img src="JAVA_Introduce/book_thisjava.png" width="30%">
 </p>
 - JAVA_Introduce : 자바 기초 학습
     - [10.11 - 10.16] JAVA_Basic
